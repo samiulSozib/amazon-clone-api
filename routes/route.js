@@ -7,7 +7,7 @@ const routes = [{
     {
         path: '/',
         handler: (req, res) => {
-            return res.json({ msg: 'welcome to my application......' })
+            return res.json({ msg: 'welcome to my application' })
         }
     }
 ]
