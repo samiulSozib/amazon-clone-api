@@ -1,6 +1,11 @@
 const authRoute = require('./authRoute')
+const adminRoute = require('./adminRoute')
 
 const routes = [{
+        path: '/api/admin',
+        handler: adminRoute
+    },
+    {
         path: '/api/auth',
         handler: authRoute
     },
